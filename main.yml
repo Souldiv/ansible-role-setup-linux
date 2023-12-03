@@ -1,0 +1,6 @@
+---
+- name: configure host
+  hosts: all
+
+  roles:
+    - role: souldiv.setup_linux_vm

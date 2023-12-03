@@ -23,7 +23,9 @@ Run inside directory: `poetry install`
 Role Variables
 --------------
 
-- viasite-ansible.zsh variables, see github repo [https://github.com/viasite-ansible/ansible-role-zsh/](https://github.com/viasite-ansible/ansible-role-zsh/)
+```
+stplin_zsh_antigen_bundles: []
+```
 
 Dependencies
 ------------
