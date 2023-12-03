@@ -1,0 +1,7 @@
+---
+- name: configure zsh
+  ansible.builtin.include_role:
+    name: viasite-ansible.zsh
+  vars:
+    zsh_antigen_bundles: "{{ stplin_zsh_antigen_bundles }}"
+    zsh_source_for_all_users: true

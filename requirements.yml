@@ -1,0 +1,4 @@
+---
+roles:
+  - name: viasite-ansible.zsh
+    version: "3.6.0"

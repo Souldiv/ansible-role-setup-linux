@@ -1,0 +1,12 @@
+---
+galaxy_info:
+  author: Souldiv
+  description: A role for setting up my ubuntu VMs
+  license: license (GPL-2.0-or-later, MIT, etc)
+  min_ansible_version: 2.1
+  platforms:
+    - name: Ubuntu
+      versions:
+        - 23
+  role_name: setup_linux_vm
+  namespace: souldiv

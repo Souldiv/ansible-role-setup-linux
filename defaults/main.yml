@@ -1,0 +1,11 @@
+---
+# defaults file for setup_ubuntu_vm
+stplin_zsh_antigen_bundles:
+  - {name: command-not-found}
+  - {name: docker, command: docker}
+  - git-extras
+  - fancy-ctrl-z
+  - {name: vagrant, command: vagrant}
+  - {name: systemd, command: systemctl}
+  - {name: zsh-users/zsh-autosuggestions, when: "{{ zsh_version is version_compare('5.0', '>=') }}"}
+  - {name: zdharma-continuum/fast-syntax-highlighting, when: "{{ zsh_version is version_compare('4.3.17', '>=') }}"}

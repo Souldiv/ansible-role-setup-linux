@@ -1,0 +1,4 @@
+---
+# tasks file for setup_ubuntu_vm
+# Configure and install zsh
+- import_tasks: configure-zsh.yml
